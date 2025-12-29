@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h2>Đăng kí sinh viên mới</h2>
+    <form action = "#">
+        <label for = "fullname">Họ và tên : </label>
+        <input type = "text" id = "fullname"/>
+        <br>
+        <br>
+
+        <label for = "birthdate">Ngày sinh đầy đủ :</label>
+        <input type = "date" id = "birthdate"/>
+        <br>
+        <br>
+
+        <label for = "year&month">Tháng và năm nhập học : </label>
+        <input type = "month"/>
+        <br>
+        <br>
+
+        <label for = "time">Thời gian học : </label>
+        <input type = "time"/>
+        <br>
+        <br>
+
+        <label for = "gender">Giới tính : </label>
+        <input type = "radio" name ="gender" value = "Male">Nam
+        <input type = "radio" name ="gender" value = "Female">Nữ
+        <input type = "radio" name = "gender" value = "dif">Khác
+        <br>
+        <br>
+
+        <label for = "email">Email sinh viên : </label>
+        <input type ="email" id = "email"/>
+        <br>
+        <br>
+
+        <label for =  "pass">Mật khẩu : </label>
+        <input type = "password" id = "pass"/>
+        <br>
+        <br>
+
+        <label for = "purpose">Mục tiêu học tập : </label>
+        <textarea id ="purpose" name = "purpose" rows = 5 ; cols = 30>Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội</textarea>
+        <br>
+        <br>
+
+        <label for = "base">Cơ sở</label>
+        <select name = "base">
+            <option value = "hanoi">Hà Nội</option>
+            <option value = "HCM city">Thành Phố Hồ Chí Minh</option>
+            <option value = "Da Nang">Đà Nẵng</option>
+        </select>
+        <br>
+        <br>
+
+        <label for = "images">Ảnh thẻ sinh viên</label>
+        <input type = "file" id = "images"/>
+        <br>
+        <br>
+
+        <label for = "favorite subject">Môn học yêu thích : </label>
+        <input type = "checkbox" value = "Math">Toán học
+        <input type = "checkbox" value = "programming">Lập trình
+        <input type = "checkbox" value = "English">Tiếng Anh
+        <input type = "checkbox" value = "Physic">Vật lý
+        <br>
+        <br>
+
+        <label for = "progress">Tiến độ học tập : </label>
+        <input type = "range" id = "progress"/>
+        <br>
+        <br>
+
+        <label for = "year">Năm học thứ</label>
+        <input type = "number" id = "year" min = 0 max = 99/>
+        <br>
+        <br>
+
+        <label for="search">Tìm kiếm khóa học</label>
+        <input type = "text" id = "search" value = "Khoa học máy tính"/>
+        <br>
+        <br>
+
+        <label for="color">Màu sắc yêu thích : </label>
+        <input type = "color" id = "color"/>
+        <br>
+        <br>
+
+        <input type = "submit" value = "Hủy"/>
+        <input type = "submit" value = "Làm mới"/>
+        <input type = "submit" value = "Gửi"/>
+    </form>
+</body>
+</html>
